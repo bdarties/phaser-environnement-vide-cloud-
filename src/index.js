@@ -9,14 +9,14 @@ var config = {
     default: "arcade",
     arcade: {
       gravity: { y: 300 },
-      debug: true
-    }
+      debug: true,
+    },
   },
   scene: {
     preload: preload,
     create: create,
-    update: update
-  }
+    update: update,
+  },
 };
 
 var game = new Phaser.Game(config);
